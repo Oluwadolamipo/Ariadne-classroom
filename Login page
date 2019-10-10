@@ -16,13 +16,16 @@
     <div class="topnav" id="myTopnav">
       <a href="javascript:void(0);" class="icon" onclick="myFunction()"><img src="https://res.cloudinary.com/siyfa/image/upload/v1568922461/ovqrbsa6t7nhghflejve.png" style="width: 30px;">
         </a>
-        <a href="sign up.html">Login</a>
+      <b>
+        <a href="#">Home</a>
+        <a href="class.html">Create Class</a>
         <a href="#">Contact Us</a>
         <a href="#">FAQ</a>
         <a href="#">Courses</a>
         <a href="about-us.html">How it works</a>
-        <a href="class.html">Create Class</a>
-        <a href="#">Home</a>
+        <a href="class.html">SignUp</a>
+       <a href="sign up.html">Login</a>   
+      </b>
   </div>
   </div>  
       <script>
@@ -36,15 +39,26 @@
           }
         </script>
 </header>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 <div class="wrapper">
   <form class="form-signin">
-    <h2 class="form-signin-heading">Please login</h2>
+    <h2 class="form-signin-heading">Welcome</h2>
     <input type="text" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" />
     <input type="password" class="form-control" name="password" placeholder="Password" required="" />
     <label class="checkbox">
         <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
       </label>
     <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+    <b>
+    <a rhef="sign up.html">Not a Member? Signup </a>
+    </b>
   </form>
 </div>
 <footer>
@@ -53,4 +67,3 @@
 </section>
 </body>
 </html>
-© 2019 GitHub, Inc.
